@@ -7,7 +7,7 @@
   }
   
   body{
-    background-color: #333;
+    background-color: #ffffff;
   }
   .top-navbar {
     width: 100%;
@@ -213,4 +213,5 @@
   /* INSPIRASI */
   .inspirasi-section{
     color: rgb(0, 0, 0);
+    max-width: 800px;
   }
