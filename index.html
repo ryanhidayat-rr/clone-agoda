@@ -1,137 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" href="assets/img/icon.png">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/style.css"
+    />
+    <link
+      rel="icon"
+      href="assets/img/icon.png"
+    />
     <title>Situs Resmi Agoda | gratis pembatalan & dan promo pemesanan</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--NAVBAR-->
     <header class="top-navbar">
-        <div class="navbar-container">
-          <div class="logo">
-            <img src="assets/img/logo.png">
-          </div>
-          <nav class="navbar-links">
-            <a href="#">Pesawat + Hotel</a>
-            <a href="#">Akomodasi</a>
-            <a href="#">Transportasi v</a>
-            <a href="#">Aktivitas</a>
-            <a href="#">Kupon & Promo</a>
-            <a href="#">eSIM</a>
-            <a href="#">Panduan Perjalanan</a>
-            <a href="#">ltinerari perjalanan</a>
-          </nav>
-          <div class="navbar-actions">
-            <a href="#" class="btn-outline">Daftarkan akomodasi Anda</a>
-            <div class="logo2">
-                <img src="assets/img/logo indonesia.png" alt="">
-            </div>
-            <a href="#">Masuk</a>
-            <a href="#" class="btn-outline">Buat akun</a>
-          </div>
+      <div class="navbar-container">
+        <div class="logo">
+          <img src="assets/img/logo.png" />
         </div>
-      </header>
+        <nav class="navbar-links">
+          <a href="#">Pesawat + Hotel</a>
+          <a href="#">Akomodasi</a>
+          <a href="#">Transportasi v</a>
+          <a href="#">Aktivitas</a>
+          <a href="#">...</a>
 
-      <!--ATAS-->
-      <div class="hero">
-        <h2>LIHAT DUNIA LEBIH MURAH</h2>
-    
-        <div class="tabs">
-          <button class="active"><i class="fa-solid fa-hotel"></i> Hotel</button>
-          <button><i class="fa-solid fa-house"></i> Rumah & Apt</button>
-          <button><i class="fa-solid fa-plane-departure"></i> Pesawat + Hotel</button>
-          <button><i class="fa-solid fa-plane"></i> Pesawat</button>
-          <button><i class="fa-solid fa-ticket"></i> Aktivitas</button>
-          <button><i class="fa-solid fa-taxi"></i> Transfer bandara</button>
+        </nav>
+        <div class="navbar-actions">
+          <a
+            href="#"
+            class="btn-outline"
+            >Daftarkan akomodasi Anda</a
+          >
+          <div class="logo2">
+            <img
+              src="assets/img/logo indonesia.png"
+              alt=""
+            />
+          </div>
+          <a href="#">Masuk</a>
+          <a
+            href="#"
+            class="btn-outline"
+            >Buat akun</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!--ATAS-->
+    <div class="hero">
+      <h2>LIHAT DUNIA LEBIH MURAH</h2>
+
+      <div class="tabs">
+        <button class="active"><i class="fa-solid fa-hotel"></i> Hotel</button>
+        <button><i class="fa-solid fa-house"></i> Rumah & Apt</button>
+        <button><i class="fa-solid fa-plane-departure"></i> Pesawat + Hotel</button>
+        <button><i class="fa-solid fa-plane"></i> Pesawat</button>
+        <button><i class="fa-solid fa-ticket"></i> Aktivitas</button>
+        <button><i class="fa-solid fa-taxi"></i> Transfer bandara</button>
+      </div>
+
+      <!-- FORM PENCARIAN -->
+      <div class="search-box">
+        <div class="toggle">
+          <button>Penginapan Malam Hari</button>
+          <button>Penginapan Siang Hari</button>
         </div>
 
-        <!-- FORM PENCARIAN -->
-        <div class="search-box">
-          <div class="toggle">
-            <button>Penginapan Malam Hari</button>
-            <button>Penginapan Siang Hari</button>
-          </div>
-    
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Kota, landmark, atau nama properti"
+          />
+        </div>
+
+        <div class="row">
           <div class="form-group">
-            <input type="text" placeholder="Kota, landmark, atau nama properti">
+            <input
+              type="date"
+              value="2025-05-04"
+            />
           </div>
-    
-          <div class="row">
-            <div class="form-group">
-              <input type="date" value="2025-05-04">
-            </div>
-            <div class="form-group">
-              <input type="date" value="2025-05-05">
-            </div>
-            <div class="form-group">              <select>
-                <option>1 dewasa, 1 kamar</option>
-                <option>2 dewasa, 1 kamar</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <input
+              type="date"
+              value="2025-05-05"
+            />
           </div>
-    
-          <a href="#" class="flight-link"><i class="fa-solid fa-plus"></i> Cari penerbangan</a>
-    
-          <button class="search-btn">CARI</button>
-        </div>
+          <div class="form-group">
+            <select>
+              <option>1 dewasa, 1 kamar</option>
+              <option>2 dewasa, 1 kamar</option>
+            </select>
+          </div>
         </div>
 
-        <!-- INSPIRASI -->
-      <div class="inspirasi-wrapper">
+        <a
+          href="#"
+          class="flight-link"
+          ><i class="fa-solid fa-plus"></i> Cari penerbangan</a
+        >
+
+        <button class="search-btn">CARI</button>
+      </div>
+    </div>
+
+    <!-- INSPIRASI -->
+    <div class="inspirasi-wrapper">
       <div class="inspirasi-section">
         <h2>Yuk, cek inspirasi liburan di Indonesia ini</h2>
         <div class="inspirasi-scroll">
           <div class="inspirasi-card">
-            <img src="assets/img/jakarta.png" alt="Jakarta">
+            <img
+              src="assets/img/jakarta.png"
+              alt="Jakarta"
+            />
             <h3>Jakarta</h3>
             <p>14,249 akomodasi</p>
           </div>
           <div class="inspirasi-card">
-            <img src="assets/img/bandung.png" alt="Bandung">
+            <img
+              src="assets/img/bandung.png"
+              alt="Bandung"
+            />
             <h3>Bandung</h3>
             <p>7,196 akomodasi</p>
           </div>
           <div class="inspirasi-card">
-            <img src="assets/img/yogyakarta.png" alt="Yogyakarta">
+            <img
+              src="assets/img/yogyakarta.png"
+              alt="Yogyakarta"
+            />
             <h3>Yogyakarta</h3>
             <p>5,503 akomodasi</p>
           </div>
           <div class="inspirasi-card">
-            <img src="assets/img/surabaya.png" alt="Surabaya">
+            <img
+              src="assets/img/surabaya.png"
+              alt="Surabaya"
+            />
             <h3>Surabaya</h3>
             <p>3,145 akomodasi</p>
           </div>
           <div class="inspirasi-card">
-            <img src="assets/img/bali.png" alt="Bali">
+            <img
+              src="assets/img/bali.png"
+              alt="Bali"
+            />
             <h3>Bali</h3>
             <p>32,908 akomodasi</p>
           </div>
           <!-- Tambah destinasi lain di sini -->
         </div>
       </div>
+    </div>
+
+    <section class="promotions">
+      <div class ="header">
+        <h2>Jangan sampai kelewatan promo akomodasi ini!</h2> 
+        <a href="#" class="lihatsemua"><span>Lihat semua ></span></a></div>
+        <div class="promo-wrap">
+            <div class="promo-container">
+                <a href="#" class="promo-card">
+                    <div class="promo-image-wrapper">
+                        <img src="assets/img/1.png" alt="Promo Diskon">
+                        <!-- Fade Right Gradasi -->
+                        <div class="fade-right"></div>
+                    </div>
+                </a>
+                <a href="#" class="promo-card">
+                    <div class="promo-image-wrapper">
+                        <img src="assets/img/2.png" alt="Seoul Festival">
+                        <!-- Fade Right Gradasi -->
+                        <div class="fade-right"></div>
+                    </div>
+                </a>
+                <a href="#" class="promo-card">
+                    <div class="promo-image-wrapper">
+                        <img src="assets/img/3.png" alt="Hotel 99">
+                        <!-- Fade Right Gradasi -->
+                        <div class="fade-right"></div>
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="scroll-button left">&lt;</a>
+            <a href="#" class="scroll-button right">&gt;</a>
+        </div>
+    
+        <div class = "header2"> 
+          <h2>Liburan lebih irit pakai promo Penerbangan & Aktivitas ini!</h2></div>
+        <div class="promo-wrap">
+            <div class="promo-container">
+                <a href="#" class="promo-card">
+                    <div class="promo-image-wrapper">
+                        <img src="assets/img/4.png" alt="Traveling Hemat">
+                        <!-- Fade Right Gradasi -->
+                        <div class="fade-right"></div>
+                    </div>
+                </a>
+                <a href="#" class="promo-card">
+                    <div class="promo-image-wrapper">
+                        <img src="assets/img/5.png" alt="Flash Sale">
+                        <!-- Fade Right Gradasi -->
+                        <div class="fade-right"></div>
+                    </div>
+                </a>
+                <a href="#" class="promo-card">
+                    <div class="promo-image-wrapper">
+                        <img src="assets/img/6.png" alt="t'way air">
+                        <!-- Fade Right Gradasi -->
+                        <div class="fade-right"></div>
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="scroll-button left">&lt;</a>
+            <a href="#" class="scroll-button right">&gt;</a>
+        </div>
+    
+        <!-- Menu untuk popup QR -->
+        <div class="show-qr-button">
+            <a href="#"><button>
+                <img src="assets/img/icon hp.png" alt="Ikon HP" class="icon-hp">Lebih hemat di aplikasi!
+            </button></a>
+        </div>
+    </section>
+    
+    
+        <!-- Rekomendasi Destinasi -->
+        <section class="destination">
+            <h2>Coba suasana yang beda, cek rumah liburan di Agoda!</h2>
+            <div class="subtitle-row">
+                <a href="#" class="jakarta">Jakarta</a>
+                <div class="destination-subtitle">
+                    <a href="#" class="city-link">Bandung</a>
+                    <a href="#" class="city-link">Bali</a>
+                    <a href="#" class="city-link">Surabaya</a>
+                    <a href="#" class="city-link">Yogyakarta</a>
+                </div>
+                <a href="#" class="seemore"><span>Lihat properti (Jakarta) lainnya ></span>
+                </a>
+            </div>
+    
+            <div class="list-destination">
+                <div class="destination-wrap">
+                    <a href="#" class="destination-card">
+                        <img src="assets/img/7.png" alt="Bobopod Juanda">
+                        <div class="rating-badge">8.4</div>
+                    </a>
+                    <a href="#" class="card-info">
+                        <h4 class="hotel-name">Bobopod Juanda, Jakarta</h4>
+                        <div class="hotel-stars">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    
+                        <div class="hotel-location">
+                            <img src="assets/img/lokasi.png" alt="Location Icon" class="icon">
+                            <span>Pasar Baru, Jakarta</span>
+                        </div>
+                        <p class="noted">Per malam sebelum pajak dan biaya lainnya</p>
+                        <p class="price">IDR 161,169</p>
+                    </a>
+                </div>
+    
+                <div class="destination-wrap">
+                    <a href="#" class="destination-card">
+                        <img src="assets/img/8.png" alt="Bobopod TA">
+                        <div class="rating-badge">8.4</div>
+                    </a>
+                    <a href="#" class="card-info">
+                        <h4 class="hotel-name">Bobopod Tanah Abang, Jakarta</h4>
+                        <div class="hotel-stars">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    
+                        <div class="hotel-location">
+                            <img src="assets/img/lokasi.png" alt="Location Icon" class="icon">
+                            <span>Monas, Jakarta</span>
+                        </div>
+                        <p class="noted">Per malam sebelum pajak dan biaya lainnya</p>
+                        <p class="price">IDR 148,094</p>
+                    </a>
+                </div>
+    
+                <div class="destination-wrap">
+                    <a href="#" class="destination-card">
+                        <img src="assets/img/9.png" alt="Residence KJ">
+                        <div class="rating-badge">8.4</div>
+                    </a>
+                    <a href="#" class="card-info">
+                        <h4 class="hotel-name">Andara Home Setiabudi</h4>
+                        <div class="hotel-stars">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    
+                        <div class="hotel-location">
+                            <img src="assets/img/lokasi.png" alt="Location Icon" class="icon">
+                            <span>Kuningan, Jakarta</span>
+                        </div>
+                        <p class="noted">Per malam sebelum pajak dan biaya lainnya</p>
+                        <p class="price">IDR 371,901</p>
+                    </a>
+                </div>
+    
+                <div class="destination-wrap">
+                    <a href="#" class="destination-card">
+                        <img src="assets/img/10.png" alt="101 URBAN">
+                        <div class="rating-badge">8.4</div>
+                    </a>
+                    <a href="#" class="card-info">
+                        <h4 class="hotel-name">101 URBAN, Jakarta</h4>
+                        <div class="hotel-stars">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    
+                        <div class="hotel-location">
+                            <img src="assets/img/lokasi.png" alt="Location Icon" class="icon">
+                            <span>Thamrin, Jakarta</span>
+                        </div>
+                        <p class="noted">Per malam sebelum pajak dan biaya lainnya</p>
+                        <p class="price">IDR 500,194</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Inspirasi Outside Indonesia -->
+    <div class="inspirasi-wrapper">
+      <div class="inspirasi-section">
+        <h2>Ada juga liburan diluar Indonesia, lho!</h2>
+        <div class="inspirasi-scroll">
+          <div class="inspirasi-card">
+            <img
+              src="assets/img/Manilla.png"
+              alt="Manilla"
+            />
+            <h3>Manilla</h3>
+            <p>14,249 akomodasi</p>
+          </div>
+          <div class="inspirasi-card">
+            <img
+              src="assets/img/Bangkok.png"
+              alt="Bangkok"
+            />
+            <h3>Bangkok</h3>
+            <p>7,196 akomodasi</p>
+          </div>
+          <div class="inspirasi-card">
+            <img
+              src="assets/img/Kuala Lumpur.png"
+              alt="Kuala Lumpur"
+            />
+            <h3>Kuala Lumpur</h3>
+            <p>5,503 akomodasi</p>
+          </div>
+          <div class="inspirasi-card">
+            <img
+              src="assets/img/Las Vegas.png"
+              alt="Las Vegas"
+            />
+            <h3>Las Vegas</h3>
+            <p>3,145 akomodasi</p>
+          </div>
+          <div class="inspirasi-card">
+            <img
+              src="assets/img/New York.png"
+              alt="New York"
+            />
+            <h3>New York</h3>
+            <p>32,908 akomodasi</p>
+          </div>
+          <!-- Tambah destinasi lain di sini -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Kota Destinasi -->
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h3>Destination Cities</h3>
+        <h4>Asia</h4>
+        <ul>
+          <li><a href="#">Bali Hotels</a></li>
+          <li><a href="#">Bangkok Hotels</a></li>
+          <li><a href="#">Tokyo Hotels</a></li>
+          <li><a href="#">Jakarta Hotels</a></li>
+          <li><a href="#">Busan Hotels</a></li>
+          <li><a href="#">Kuala Lumpur Hotels</a></li>
+          <li><a href="#">Manila Hotels</a></li>
+          <li><a href="#">Jeju Island Hotels</a></li>
+          <li><a href="#">Kyoto Hotels</a></li>
+          <li><a href="#">Nagoya Hotels</a></li>
+          <li><a href="#">Okinawa Hotels</a></li>
+          <li><a href="#">Osaka Hotels</a></li>
+          <li><a href="#">Seoul Hotels</a></li>
+          <li><a href="#">Singapore Hotels</a></li>
+          <li><a href="#">Surabaya Hotels</a></li>
+          <li><a href="#">Taipei Hotels</a></li>
+          <li><a href="#">Yogyakarta Hotels</a></li>
+        </ul>
+        <h4>Europe</h4>
+        <ul>
+          <li><a href="#">London Hotels</a></li>
+          <li><a href="#">Paris Hotels</a></li>
+        </ul>
+        <h4>Middle East</h4>
+        <ul>
+          <li><a href="#">Dubai Hotels</a></li>
+        </ul>
       </div>
 
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-text">
-            <p>Hak cipta © 2005 – 2025 Agoda Company Pte. Ltd. Semua Hak Dilindungi Undang-undang.</p>
-            <p>Agoda adalah bagian dari Booking Holdings Inc., pemimpin bisnis perjalanan online dan layanan terkait lainnya di dunia.</p>
-          </div>
-          <div class="footer-logos">
-            <img src="assets/img/agoda-logo-white2.svg" alt="Agoda" />
-            <img src="assets/img/priceline-logo-white2.svg" alt="Priceline" />
-            <img src="assets/img/kayak-logo-white2.svg" alt="Kayak" />
-            <img src="assets/img/Booking_Com_Logotype_Aug2020_White.svg" alt="Booking.com" />
-            <img src="assets/img/open-table-logo-white2.svg" alt="OpenTable" />
-          </div>
+      <div class="footer-column">
+        <h3>Countries & Territories</h3>
+        <h4>Africa</h4>
+        <ul>
+          <li><a href="#">Morocco Hotels</a></li>
+          <li><a href="#">South Africa Hotels</a></li>
+        </ul>
+        <h4>Americas</h4>
+        <ul>
+          <li><a href="#">Argentina Hotels</a></li>
+          <li><a href="#">Brazil Hotels</a></li>
+          <li><a href="#">Canada Hotels</a></li>
+          <li><a href="#">Mexico Hotels</a></li>
+          <li><a href="#">United States Hotels</a></li>
+          <li><a href="#">Venezuela Hotels</a></li>
+        </ul>
+        <h4>Asia</h4>
+        <ul>
+          <li><a href="#">China Hotels</a></li>
+          <li><a href="#">India Hotels</a></li>
+          <li><a href="#">Indonesia Hotels</a></li>
+          <li><a href="#">Japan Hotels</a></li>
+          <li><a href="#">Malaysia Hotels</a></li>
+          <li><a href="#">Philippines Hotels</a></li>
+          <li><a href="#">South Korea Hotels</a></li>
+          <li><a href="#">Taiwan Hotels</a></li>
+        </ul>
+        <h4>Middle East</h4>
+        <ul>
+          <li><a href="#">Bahrain Hotels</a></li>
+          <li><a href="#">Egypt Hotels</a></li>
+          <li><a href="#">Israel Hotels</a></li>
+          <li><a href="#">United Arab Emirates Hotels</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Destination Guides</h3>
+        <h4>Asia</h4>
+        <ul>
+          <li><a href="#">Bali Guide</a></li>
+          <li><a href="#">Bangkok Guide</a></li>
+          <li><a href="#">Jakarta Guide</a></li>
+          <li><a href="#">Kyoto Guide</a></li>
+          <li><a href="#">Seoul Guide</a></li>
+          <li><a href="#">Hongkong Guide</a></li>
+          <li><a href="#">Kuala Lumpur Guide</a></li>
+          <li><a href="#">Osaka Guide</a></li>
+          <li><a href="#">Singapore Guide</a></li>
+          <li><a href="#">Tokyo Guide</a></li>
+          <li><a href="#">Goa Guide</a></li>
+          <li><a href="#">Malacca Guide</a></li>
+          <li><a href="#">Philippines Guide</a></li>
+          <li><a href="#">Jeju Island Guide</a></li>
+          <li><a href="#">Sapporo Guide</a></li>
+        </ul>
+        <h4>Europe</h4>
+        <ul>
+          <li><a href="#">Paris Guide</a></li>
+        </ul>
+        <h4>Middle East</h4>
+        <ul>
+          <li><a href="#">Dubai Guide</a></li>
+          <li><a href="#">Jeddah Guide</a></li>
+          <li><a href="#">Saudi Arabia Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Agoda Homes</h3>
+        <h4>Asia Apartments</h4>
+        <ul>
+          <li><a href="#">Bangkok Apartments</a></li>
+          <li><a href="#">Manila Apartments</a></li>
+          <li><a href="#">Tokyo Apartments</a></li>
+          <li><a href="#">Osaka Apartments</a></li>
+          <li><a href="#">Kuala Lumpur Apartments</a></li>
+          <li><a href="#">Pattaya Apartments</a></li>
+        </ul>
+        <h4>Asia Bungalows</h4>
+        <ul>
+          <li><a href="#">Bali Bungalows</a></li>
+          <li><a href="#">Koh Kood Bungalows</a></li>
+          <li><a href="#">Phu Quoc Island Bungalows</a></li>
+        </ul>
+        <h4>Asia Villas</h4>
+        <ul>
+          <li><a href="#">Bali Villas</a></li>
+          <li><a href="#">Phuket Villas</a></li>
+          <li><a href="#">Seoul Villas</a></li>
+        </ul>
+        <h4>Asia Vacation Rentals</h4>
+        <ul>
+          <li><a href="#">Tokyo Vacation Rentals</a></li>
+          <li><a href="#">Bangkok Vacation Rentals</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>Hak cipta © 2005 – 2025 Agoda Company Pte. Ltd. Semua Hak Dilindungi Undang-undang.</p>
+          <p>Agoda adalah bagian dari Booking Holdings Inc., pemimpin bisnis perjalanan online dan layanan terkait lainnya di dunia.</p>
         </div>
-      </footer>
-      
-</body>
+        <div class="footer-logos">
+          <img
+            src="assets/img/agoda-logo-white2.svg"
+            alt="Agoda"
+          />
+          <img
+            src="assets/img/priceline-logo-white2.svg"
+            alt="Priceline"
+          />
+          <img
+            src="assets/img/kayak-logo-white2.svg"
+            alt="Kayak"
+          />
+          <img
+            src="assets/img/Booking_Com_Logotype_Aug2020_White.svg"
+            alt="Booking.com"
+          />
+          <img
+            src="assets/img/open-table-logo-white2.svg"
+            alt="OpenTable"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
