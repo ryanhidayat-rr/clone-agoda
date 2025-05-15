@@ -9,6 +9,10 @@
   body{
     background-color: #ffffff;
   }
+
+
+  /* Navbar section - Ryan Hidayat */
+
   .top-navbar {
     width: 100%;
     background: white;
@@ -28,11 +32,11 @@
     max-width: 95%;
   }
   
-  .logo img {
+  .logo img { /* ini penempatan logo agoda */
     height: 40px;
   }
   
-  .logo2 img {
+  .logo2 img { /* ini logo bendera indonesia */
     height: 20px;
   }
   .navbar-links a {
@@ -47,7 +51,7 @@
     color: #007bff;
   }
   
-  .navbar-actions {
+  .navbar-actions { /* Membungkus button yang di navbar */
     display: flex;
     align-items: center;
     gap: 10px;
@@ -74,6 +78,8 @@
     background-color: #0056cc;
   }
   
+
+  /* Bagian atas, section 1 - Ryan Hidayat */
   .hero {
     background: url('img/bg1.png') no-repeat center/cover;
     padding: 40px 20px; /* atas bawah */
@@ -84,7 +90,7 @@
   
   .hero h2 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* kasih jarak form dengan judul */
   }
   
   .tabs {
@@ -94,9 +100,8 @@
     border-radius: 10px;
     padding: 10px;
     gap: 10px;
-    margin-bottom: 20px;
     flex-wrap: wrap;
-    margin-bottom: -15px;
+    margin-bottom: -15px; /* Yang bikin tampilan di atas form */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.336);
     max-width: 800px;
     margin-left: auto;
@@ -126,8 +131,8 @@
     color: #4d8aff;
   }
 
-  
-  .search-box {
+  /* Form pencarian -= sec 1 - Ryan Hidayat */
+  .search-box { 
     background: white;
     max-width: 1000px;
     margin: 0 auto;
@@ -159,30 +164,30 @@
     border-color: #4d8aff;
   }
   
-  .form-group {
+  .form-group { 
     margin-bottom: 15px;
   }
   
-  .form-group input,
-  .form-group select {
-    width: 100%;
+  .form-group input, /* Input kota, atau nama properti */
+  .form-group select { /* opsi 1 dewasa, 1 kamar */
+    width: 100%; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
   }
   
-  .row {
+  .row {  /* Mengatur layout Tanggal dan, opsi jumlah orang dan kamar */
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
   }
   
-  .row .form-group {
+  .row .form-group { /* Mengatur lebar di input Tanggal dan, opsi jumlah orang dan kamar */
     flex: 1;
     min-width: 150px;
   }
   
-  .flight-link {
+  .flight-link { /* link tambah penerbangan */
     display: inline-block;
     margin-top: 10px;
     color: #4d8aff;
@@ -190,7 +195,7 @@
     font-size: 14px;
   }
   
-  .search-btn {
+  .search-btn { /* Search "CARI" */
     width: 350px;
     padding: 19px;
     background: #4d8aff;
@@ -215,8 +220,8 @@
     display: flex;
     justify-content: center;  /* Menempatkan elemen secara horizontal di tengah */
     align-items: center;      /* Menempatkan elemen secara vertikal di tengah */
-    margin: 0 auto;           /* Jika Anda ingin menggunakan margin otomatis pada kiri dan kanan */
-    width: 100%;              /* Atur lebar elemen jika diperlukan */
+    margin: 0 auto;           /* margin otomatis pada kiri dan kanan */
+    width: 100%;              /* Atur lebar elemen */
     height: 100%; 
   }
   
@@ -230,8 +235,8 @@
   }
 
   .inspirasi-scroll {
-    display: flex;
-    gap: 16px;
+    display: flex; /* ke samping */
+    gap: 16px; /* jarak */
     padding-bottom: 10px;
   }
 
@@ -258,7 +263,7 @@
   }
 
 
-/* Bagian frida */
+/* Section 2 - Frida */
 
 
 .header {
